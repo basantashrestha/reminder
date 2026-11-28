@@ -1,0 +1,21 @@
+PROJECT_STRUCTURE.md
+AGENTS.md
+application
+    app
+        index.html
+    Dockerfile
+infrastructure
+    ansible
+        argocd.yaml
+        inventory.ini
+        k3s.yaml
+    terraform
+        main.tf
+        outputs.tf
+        variables.tf
+.github
+    copilot-instructions.md
+    workflows
+        pipeline.yaml
+        terraformpipeline.yaml
+        ansiblepipeline.yaml
